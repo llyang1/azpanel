@@ -16,11 +16,11 @@
 [https://github.com/azpanel/azpanel/wiki/bt.cn](https://github.com/azpanel/azpanel/wiki/bt.cn)
 
 ## 原版升级
-curl -sS https://raw.githubusercontent.com/llyang1/azpanel/master/yll-update_O.sh | bash
+<code>curl -sS https://raw.githubusercontent.com/llyang1/azpanel/master/yll-update_O.sh | bash</code>
 <p><a href="curl -sS https://raw.githubusercontent.com/llyang1/azpanel/master/yll-update_O.sh | bash">原版升级</a></p>
 
 
 ## 个性化更新
-curl -sS https://raw.githubusercontent.com/llyang1/azpanel/master/yll-update_azpanel.sh | bash
+<code>curl -sS https://raw.githubusercontent.com/llyang1/azpanel/master/yll-update_azpanel.sh | bash</code>
 <p><a href="curl -sS https://raw.githubusercontent.com/llyang1/azpanel/master/yll-update_azpanel.sh | bash">个性化升级</a></p>
 
