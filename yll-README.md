@@ -17,7 +17,6 @@
 
 ## 原版升级
 <code>curl -sS https://raw.githubusercontent.com/llyang1/azpanel/master/yll-update_O.sh | bash</code>
-<a href="curl -sS https://raw.githubusercontent.com/llyang1/azpanel/master/yll-update_azpanel.sh | bash">curl -sS https://raw.githubusercontent.com/llyang1/azpanel/master/yll-update_azpanel.sh | bash</a>
 
 
 ## 个性化更新
