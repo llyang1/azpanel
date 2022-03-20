@@ -15,10 +15,10 @@
 
 [https://github.com/azpanel/azpanel/wiki/bt.cn](https://github.com/azpanel/azpanel/wiki/bt.cn)
 
-## 原版升级
+## 原版升级 - 适用于lnmp安装
 <code>curl -sS https://raw.githubusercontent.com/llyang1/azpanel/master/yll-update_O.sh | bash</code>
 
 
-## 个性化更新
+## 个性化更新 - 适用于lnmp安装
 <code>curl -sS https://raw.githubusercontent.com/llyang1/azpanel/master/yll-update_azpanel.sh | bash</code>
 
