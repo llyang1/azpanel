@@ -21,6 +21,7 @@ grep "clientId" $myPHP;grep "tenantId" $myPHP;grep "clientSecret" $myPHP
 
 #让每行显示100条。默认15
 iName=$(find / -iname .env | xargs grep -li 'APP_NAME')
+sed -i '/PAGINATE/d' $iName
 sed -i '/APP_NAME/ s;$;\nPAGINATE = 100;' $iName
 #sed '/APP_NAME/ s;^;PAGINATE = 100\n;' $iName
 
