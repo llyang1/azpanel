@@ -19,9 +19,9 @@ sed -i "/configs[[]/s_tenant[']_tenantId\'_" $myPHP
 sed -i "/configs[[]/s_password[']_clientSecret\'_" $myPHP
 grep "clientId" $myPHP;grep "tenantId" $myPHP;grep "clientSecret" $myPHP
 
-#让每行显示100条。默认15 | 不再需要
-#iName=$(find / -iname .env | xargs grep -li 'APP_NAME')
-#sed -i '/PAGINATE/d' $iName
-#sed -i '/APP_NAME/ s;$;\nPAGINATE = 100;' $iName
+#让每行显示100条。默认15
+iName=$(find / -iname .env | xargs grep -li 'APP_NAME')
+sed -i '/PAGINATE/d' $iName
+sed -i '/APP_NAME/ s;$;\nPAGINATE = 100;' $iName
 
 lnmp restart
