@@ -10,10 +10,6 @@ composer install;composer update;php think migrate:run;cd #防止报错
 myPHP=$(find / -iname "AzureList.php"); echo $myPHP
 sed -i 's_win11-21h2-pro-zh-cn_win11-21h2-entn_' $myPHP
 sed -i 's_win10-21h2-pro-zh-cn-g2_win10-21h2-entn-g2_' $myPHP
-sed -i 's|Ubuntu_18_04|Ubuntu_22_04|' $myPHP
-sed -i 's|Ubuntu 18.04|Ubuntu 22.04|' $myPHP
-sed -i 's|20_04-lts-gen2|22_04-lts-gen2|' $myPHP
-sed -i 's|0001-com-ubuntu-server-focal|0001-com-ubuntu-server-jammy|' $myPHP
 #lnmp restart
 
 #json格式修改
